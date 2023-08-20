@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+
+<style>
+/* Style for the click box */
+/* Style for the click box */
+.click-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Change styles when the box is clicked */
+.click-box.clicked {
+    background-color: #3498db;
+    text-transform: uppercase;
+}
+
+</style>
+<body>
+    <div class="click-box">
+        <p>Click me to reveal uppercase text!</p>
+    </div>
+</body>
+</html>
